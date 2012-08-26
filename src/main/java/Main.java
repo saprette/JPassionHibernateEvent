@@ -29,7 +29,7 @@ public class Main {
         getUserDao().saveOrUpdate(new User("NotImportantUser", 10));
         getUserDao().saveOrUpdate(new User("NotImportantUser", 34));
 
-        logger.info("Done creating users :");
+        logger.info("Done creating users : ");
 
         logger.info("Users :");
         for (User p : getUserDao().findAll()) {
